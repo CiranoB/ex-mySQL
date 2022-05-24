@@ -22,3 +22,7 @@ select * from tb_dadosfiscais;
 select * from tb_dadosfiscais where salario>2000;
 select * from tb_dadosfiscais where salario<2000;
 
+update tb_dadosfiscais set nome = "CiranoRex" where id = 1;
+
+select * from tb_dadosfiscais;
+
