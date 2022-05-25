@@ -28,4 +28,7 @@ select * from tb_produtos where categoria = "Legumes";
 
 update tb_produtos set nome = "Tomate Gaúcho" where id = 2;
 
+
+set sql_safe_updates = 0;
+
 delete from tb_produtos where categoria = "Verduras";
